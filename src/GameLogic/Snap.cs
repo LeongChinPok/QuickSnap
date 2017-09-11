@@ -145,6 +145,7 @@ namespace CardGames.GameLogic
 				 _topCards [0] != null && _topCards [0].Rank == _topCards [1].Rank) // and its a match
 			{
 				_score[player]++;
+				SwinGame.PlaySoundEffect ("Slap2");
 				//TODO: consider playing a sound here...
 			}
 
